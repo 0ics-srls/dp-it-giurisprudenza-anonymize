@@ -1,0 +1,7 @@
+dp-it-giurisprudenza-anonymize
+
+The engine modules (anonymize.py, gazetteer.py, ner_engine.py, policy.py, spans.py) and their tests are a fork of 0ics-srls/lexcrps-anonymize 0.5.4
+(commit 1cb385c), the 0ics srl anonymizer class of the legacy open-lex-it.
+
+The image downloads and bakes the model DeepMount00/Italian_NER_XXL (https://huggingface.co/DeepMount00/Italian_NER_XXL), licensed Apache-2.0.
+Runtime libraries: transformers (Apache-2.0), PyTorch (BSD-3-Clause), huggingface_hub (Apache-2.0).
